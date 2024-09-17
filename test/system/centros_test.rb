@@ -12,7 +12,7 @@ class CentrosTest < ApplicationSystemTestCase
 
   test "should create centro" do
     visit centros_url
-    click_on "New centro"
+    click_on "Nuevo centro"
 
     fill_in "Clave", with: @centro.clave
     fill_in "Nombre", with: @centro.nombre
